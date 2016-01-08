@@ -6,7 +6,7 @@ $(function(){
 			url: "http://media.jd.com/gotoadv/selectProMediaType",
 			data: "id=0&type=4&status=1",
 			success: function(msg){
-				alert( "Data Saved: " + msg );
+				alert( "Data Saved: " + JSON.stringify(msg) );
 			}
 		});
 	})
